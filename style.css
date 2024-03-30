@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.wapper {
+    height: 100%;
+    width: 100%;
+
+
+
+}
+
+.nav {
+    height: 100px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    z-index: 4;
+   background-color: rgb(7, 6, 6);
+   color: white;
+}
+
+.d1 {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.d1 a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2vw;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.d2 {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.d2 h1 {
+    font-size: 2.2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.d2 b {
+    color: red;
+}
+
+.d3 {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 1;
+}
+
+.input-box input {
+    color: black;
+    background-color: rgb(190, 190, 190);
+    padding: 0.6vw 3vw;
+    border-radius: 20px;
+    border: none;
+
+}
+
+.d3 h3 {
+
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4vw;
+}
+
+.d3 button {
+    padding: 0.7vw 2vw;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(172, 170, 170);
+    border: none;
+    font-size: 1vw;
+}
+
+.div1 {
+    height: calc(100% - 100px);
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(maxim-berg-ZESbrsLBPPk-unsplash.jpg);
+    
+}
+
+.div1 img {
+    position: absolute;
+    height: 100%;
+    z-index: 3;
+    bottom: 0;
+}
+
+.div1 h2 {
+    font-size: 8vw;
+   font-weight: 900;
+   color: rgb(0, 0, 0);
+        font-family: "Rubik Scribble", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+}
+
+.div1 h1 {
+    font-size: 16vw;
+    font-weight: 900;
+        font-family: "Rubik Scribble", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      
+}      
+
+
+.div1 h2 span {
+   margin: 6vw;
+}
+
+.list1{
+    height: 110%;
+    width: 100%;
+    background-color: rgb(8, 8, 8);
+    display: flex;
+    /* margin-top: 2vw; */
+}
+.l1{
+      height: 100%;
+      width: 50%;
+}
+.l1 img{
+    height: 55%;
+    width: 50%;
+    border-radius: 500px;
+    margin-left: 9vw;
+    margin-top: 3vw;
+    
+}
+.r1{
+    margin-left: 15vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+.l2{
+    height: 100%;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2vw;
+    color: grey;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 425px) {
+    .d1 {
+        display: none;
+    }
+
+    .input-box {
+        display: none;
+    }
+
+    .d3 {
+        display: none;
+    }
+
+    .div1 {
+        height: 300px;
+        width: 100%;
+        
+        position: relative;
+
+    }
+
+   .div h1 {
+    font-weight: s00;
+   }
+
+
+    .div1 h2 span {
+       font-size: 11vw;
+       font-weight: 600;
+    }
+    .div1 h2{
+        font-size: 11vw;
+        font-weight: 600;
+    }
+   
+
+    .div1 h1 {
+        font-size: 16vw;
+        font-weight: 600;
+    }
+
+    .d2 {
+        height: 100%;
+        width: 50%;
+    }
+
+    .d2 h1 {
+        font-size: 5vw;
+    }
+
+    .div2 {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div2 i {
+        margin-left: 30vw;
+    }
+    .list1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .l1 img{
+            height: 40vw;
+            width: 37vw;
+           margin-left: 4vw;
+    }
+    .r1{
+        margin-left: 2vw;
+
+    }
+    .r1 p{
+        font-size: 3vw;
+    }
+    .l2{
+        margin-left: 2vw;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes rotating {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(-36deg);
+    }
+}
